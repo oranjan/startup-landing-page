@@ -1,0 +1,249 @@
+:root {
+    --white-color: #FFFFFF;
+    --btn-bg-color: #E93A7D;
+    --html-bg-color: #2F1893;
+    --right-box-navy: #1E0E62;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background: var(--html-bg-color);
+    height: 120%;
+}
+
+
+/*HEADER CSS*/
+
+header .hero {
+    font-size: 24px;
+    color: var(--white-color);
+    text-align: center;
+    line-height: 31px;
+    letter-spacing: -0.292683px;
+    border: 1px solid rgba(0, 0, 0, 0.02);
+}
+
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: 32px auto;
+}
+
+
+nav>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    font-size: 19px;
+    line-height: 28px;
+}
+
+ul>span {
+    color: var(--white-color);
+    opacity: 0.5;
+}
+
+
+ul>li {
+    list-style: none;
+    color: var(--white-color);
+}
+
+button.btn {
+    border: none;
+    background: var(--btn-bg-color);
+    border-radius: 32px;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--white-color);
+    padding: 8px 24px;
+}
+
+.btn:nth-of-type(2) {
+    padding: 10px 30px;
+}
+
+
+/*  MAIN  */
+
+main {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    color: var(--white-color);
+}
+
+.left-box {
+    width: 35%;
+    box-sizing: border-box;
+    padding: 5px 0;
+}
+
+.left-box h2 {
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: -1px;
+
+}
+
+.left-box h5 {
+    margin-top: 15px;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+/*right box (signUp NOW) in main*/
+.right-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border: 2px solid #EBEAED;
+    border-radius: 100px;
+    width: 35%;
+    background: var(--white-color);
+    border-radius: 10px;
+    mix-blend-mode: normal;
+}
+
+.right-box h3 {
+    font-size: 42px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    color: var(--right-box-navy)
+}
+
+input.email,
+input.password {
+    width: 70%;
+    height: 48px;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(21, 20, 57, 0.4);
+    border-radius: 100px;
+    border: 2px solid #EBEAED;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+input::placeholder {
+    padding-left: 20px;
+}
+
+/*check box*/
+.custom-checkbox {
+    /* margin: 10px 0 ; */
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    user-select: none;
+    color: rgba(21, 20, 57, 0.4);
+
+}
+
+
+.custom-checkbox input {
+    display: none;
+}
+
+
+.checkmark {
+    position: absolute;
+    border-radius: 4px;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #25DAC5;
+}
+
+.custom-checkbox input:checked+.checkmark:after {
+    content: "";
+    position: absolute;
+    left: 8px;
+    top: 2px;
+    width: 5px;
+    height: 15px;
+    border: 2px solid var(--right-box-navy);
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+
+button.wider-btns {
+    border: none;
+    background: #482BE7;
+    border-radius: 32px;
+    width: 70%;
+    padding: 16px 64px;
+    margin: 16px auto;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--white-color);
+}
+
+
+button.wider-btns:nth-of-type(2) {
+    background-color: #1DA1F2;
+}
+
+
+/*dividers*/
+
+.dividers {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.dividers .divider {
+    display: inline;
+    mix-blend-mode: normal;
+    border: 2px solid #EBEAED;
+    width: 40%;
+}
+
+.dividers .one {
+    margin-left: 0;
+}
+
+.dividers .two {
+    margin-left: auto;
+}
+
+.dividers span {
+    color: rgba(21, 20, 57, 0.4);
+    width: 30%;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/*Sign in   || have an account */
+
+.spans {
+    width: 65%;
+    padding: 20px 0;
+}
+
+.account,
+.sign-in {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
+span.account {
+    color: rgba(21, 20, 57, 0.4);
+    margin-right: 4px;
+}
+
+span.sign-in {
+    color: #25DAC5;
+}
