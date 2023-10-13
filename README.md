@@ -1,9 +1,20 @@
 # Startup-Landing-Page
 
+## Live Demo
+You can view a live demo of this landing page by following this link:
+[Live Demo](https://startup-lander.netlify.app/)
 
-This project is a landing page created using vanilla CSS and HTML. The landing page design was inspired by a Figma design, and I have implemented it using my custom utility CSS classes. helped me learn about using variables in CSS, pseudo-classes and pseudo-elements, and making effective use of flexbox for layout. Additionally, I created a custom checkbox and became more familiar with CSS positioning properties like `absolute` and `relative`.
+This project is a landing page created using vanilla CSS and HTML. The landing page design was inspired by a Figma design.
 
-## Project Overview
+
+## What I learned
+- implemented it using my custom utility CSS classes
+- using variables in CSS
+- got familiar with pseudo-classes and pseudo-elements
+- created a custom checkbox
+- became more familiar with CSS positioning properties like `absolute` and `relative`
+
+
 
 - **HTML**: The HTML structure of the landing page is built according to the design from Figma. The layout is created using semantic HTML elements like `<header>`, `<nav>`, `<section>`, and `<footer>`, ensuring accessibility and SEO-friendliness.
 
@@ -23,4 +34,4 @@ This project is a landing page created using vanilla CSS and HTML. The landing p
 - Contact: rnjnmhta@gmail.com
 
 ## License
- Feel free to  learn,copy, fork, modify, and use it,
+Feel free to  learn,copy, fork, modify, and use it,
